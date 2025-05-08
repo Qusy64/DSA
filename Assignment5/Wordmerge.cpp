@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 
-using namespace std;
+using namespace std; 
 
 void Solve(string s){
     stack<char> st;

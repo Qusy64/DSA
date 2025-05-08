@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define int long long
+#define int long long 
 
 int n;
 

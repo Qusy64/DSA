@@ -1,7 +1,7 @@
 for( auto t : A ){
     Hash[t]++;
 }
-vector<int> quy;
+vector<int> quy; 
 for ( auto &T : Hash) {
     if (k > 0 && T.second > 0){
         k--;

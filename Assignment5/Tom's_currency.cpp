@@ -3,7 +3,7 @@
 using namespace std;
 
 #define int long long
-
+ 
 void Solve(set<int> quy){
     cout << quy.size() << endl;
     for ( int i : quy ){

@@ -17,7 +17,7 @@ int C(int n, int k) {
 void Solve(vector<int>& a) {  
     int tamgiac = 0;
     sort(a.begin(), a.end());
-    
+     
     int i = 0;
     while (i < n) {
         int j = i;

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-long long n;
+long long n; 
 
 vector <long long> solve;
 
