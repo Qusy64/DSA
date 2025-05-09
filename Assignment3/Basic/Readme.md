@@ -3,7 +3,7 @@ Họ và tên : Lê Văn Quý
 MSSV : 24521492
 ### BST
 Bài này ta sẽ sử dụng [đệ quy](https://wiki.vnoi.info/algo/basic/backtracking.md) để tìm ra tổ tiên thấp nhất của v1 và v2
-``` cpp=
+``` c++
 Node *lca(Node *root, int v1, int v2) {
     if (root == nullptr) {
         return nullptr;
@@ -21,7 +21,7 @@ Node *lca(Node *root, int v1, int v2) {
 ```
 ### Dectobin
 Chuyển đổi số từ hệ thập phân sang hệ nhị phân
-``` cpp=
+``` c++
 while(x > 0){
         int i = x % 2;
         a.push_back(i); // Ghi nhận số dư khi chia x cho 2
@@ -38,7 +38,7 @@ Khi hai danh sách liên kết có Node chung thì:
 $\Rightarrow$ So sánh song song sao cho hai Node cuối của hai danh sách song song với nhau
 
 (Tôi nhận ra điều này sau khi dùng [ChatGPT](https://chatgpt.com/) :>)
-``` cpp=
+``` c++
     while (temp1 != nullptr && temp2 != nullptr) {
         if (temp1 == temp2) {
             return temp1;  // Trả về nút chung
@@ -52,7 +52,7 @@ $\Rightarrow$ So sánh song song sao cho hai Node cuối của hai danh sách so
 ```
 ### Latex
 Bài này ta sẽ kiểm tra các dấu "Đóng" có đóng đúng dấu "Mở" không?
-``` cpp=
+``` c++
 for (auto &i : s){
         if (i == '{' || i == '(' || i == '[') { // Duyệt qua các dấu mở
             stk.push_back(i); 
@@ -73,14 +73,14 @@ for (auto &i : s){
 ```
 ### Linked-List-Insertion
 Ta sẽ chú trọng phần tìm vị trí chèn cho danh sách liên kết
-``` cpp=
+``` c++
 while (current->next != nullptr && current->next->data < x) { // Duyệt đến khi tìm được node có giá trị lớn hơn hoặc bằng x
         current = current->next; 
     }
 ```
 ### Linked-List-Merge
 Thực hiện trộn hai danh sách liên kết
-``` cpp=
+``` c++
 while (head_list1 != nullptr && head_list2 != nullptr) { // So sánh cái nào nhỏ hơn thì đưa vào danh sách mới
         if (head_list1->data <= head_list2->data) { 
             tail->next = head_list1;
@@ -100,7 +100,7 @@ while (head_list1 != nullptr && head_list2 != nullptr) { // So sánh cái nào n
 ```
 ### Linked-List-NhapDaThuc
 Bài này chúng ta sẽ cần hàm ``Nhap()`` và hàm ``Xuat()``. Phân đáng chú ý nhất chắc là đoạn chung ta xử lý hiển thị số ( Hiển thị phần thập phân )
-``` cpp=
+``` c++
 stringstream ss;
 ss << fixed << setprecision(2) << abs_heso;
 string val = ss.str();
@@ -110,7 +110,7 @@ cout << val;
 ```
 ### Linked-List-Reverse
 Ta sẽ thay đổi phần ``->next`` của mỗi Node trỏ đến Node trước đó.
-``` cpp=
+``` c++
 void reverseLinkedList(SinglyLinkedList* llist) { // Đảo ngược danh sách liên kết
     SinglyLinkedListNode* prev = 0; // Tạo con trỏ prev trỏ đến nullptr
     SinglyLinkedListNode* curr = llist->head; // Tạo con trỏ curr trỏ đến đầu danh sách
@@ -127,14 +127,14 @@ void reverseLinkedList(SinglyLinkedList* llist) { // Đảo ngược danh sách 
 ```
 ### tree(NLR) 
 Ở bài này ta sẽ duyệt cây theo thứ tự tiền tự ( Node → Left → Right.)
-``` cpp= 
+``` c++ 
 if (root == NULL) return;  // Nếu node hiện tại là NULL, kết thúc hàm
 cout << root->data << " ";  // Xuất giá trị node hiện tại
 preOrder(root->left);  // Duyệt cây con bên trái
 preOrder(root->right); // Duyệt cây con bên phải
 ```
 Bài số 2 ta không sử dụng đệ quy
-``` cpp=
+``` c++
 s.push(root);  // Đẩy node gốc vào stack
 while (!s.empty()) {
     Node* node = s.top();  // Lấy node ở đỉnh stack
