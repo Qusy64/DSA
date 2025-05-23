@@ -3,7 +3,7 @@ Họ và tên : Lê Văn Quý
 MSSV : 24521492
 ### Binary Search 2
 Bài này ta sử dụng thuật toán ``Binary Search`` để tìm kiếm vị trí của y ( vị trí đầu tiên và cuối cùng )
-``` cpp= 
+``` c++ 
 // Binary Search cho trường hợp x = 1. Tìm vị trí đầu tiên y xuất hiện
 int x1(const vector<pair<int, int>>& b, int y) {
     int l = 0, r = b.size() - 1, ans = -1;
@@ -34,7 +34,7 @@ int x2(const vector<pair<int, int>>& b, int y) {
 Bài này ta sẽ tìm chuỗi kí tự theo chiều ngang và chiều dọc. Ý tưởng ban đầu sẽ dùng thuật toán [Rabin-Karp](https://youtu.be/yFHV7weZ_as?si=wDUbNWujGCsN2Gj7) nhưng sau nhiều lần không đúng, tôi đã thực hiện ``brute-force`` vì tôi thấy kích thước bài toán không lớn:
 - $1 \leq N \times M \leq 10^5$
 - $1 \leq Q \leq 10^4$
-``` cpp=
+``` c++
 // Duyệt ngang
     for (int i = 0; i < N; ++i) {
         for (int len = 1; len <= max_len; ++len) {
@@ -66,7 +66,7 @@ Bài này ta sẽ tìm chuỗi kí tự theo chiều ngang và chiều dọc. Ý
 ```
 ### Kiểm kê 2
 Vì wecode ban ``unordered_map, set, map,...`` Nên ta sẽ dùng hàm ``Quicksort`` tự viết, để rồi đếm số lần xuất hiện của một mã sản phẩm.
-``` cpp=
+``` c++
 Kiemke(a,0, n-1); // Đlà hàm quicksort để sắp xếp mảng đầu vào
     int c = 1;
     for ( int i = 0; i <n-1 ; i++){ // Ta sẽ ghi lại số lần xuất hiện ( giống như sử dụng unoreded-map )
@@ -88,7 +88,7 @@ Kiemke(a,0, n-1); // Đlà hàm quicksort để sắp xếp mảng đầu vào
 ### Xếp hàng 1,2
 Ở hai bài này thì ta sẽ lưu trữ lại danh sách các sinh viên được mời để thuận tiện cho việc quản lý sắp xếp.
 Hai bài gần như giống nhau về mặt thuật toán.
-``` cpp=
+``` c++
 for (int i = 0; i < c; i++) {
         int x;
         cin >> x;

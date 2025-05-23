@@ -3,7 +3,7 @@ Họ và tên : Lê Văn Quý
 MSSV : 24521492
 ### [H007] - Alpha Problem
 Bài này thì ta sẽ chuyển đổi một số từ hệ thập phân sang hệ `x` phân.
-``` cpp=
+``` c++
 void Alpha(int x){
     while (n > 0){
         long long i = n % x;
@@ -17,7 +17,7 @@ void Alpha(int x){
 ```
 ### [H006] - Word Merging
 Ở bài này ta sẽ dùng stack.Khi đưa từng kí tự vào stack, kiểm tra xem kí tự được đưa vào tiếp theo có giống với kí tự trên đỉnh stack hiện tại hay không.
-``` cpp=
+``` c++
 void Solve(string s){
     stack<char> st;
     for ( auto i : s ){
@@ -34,7 +34,7 @@ void Solve(string s){
 ```
 ### [H004] - Wood Cutting
 Ở bài này ta sử dụng thuật toán tham lam, với ý tưởng ghép hai khúc từ các khúc gỗ được chia thành một khúc gỗ sao cho khúc gỗ được ghép là nhỏ nhất.
-``` cpp=
+``` c++
 void Solve(vector<long long> a) {
     if (a.size() <= 1) {
         cout << 0; 
@@ -58,7 +58,7 @@ void Solve(vector<long long> a) {
 ### 
 [H003] - Isosceles Triangle
 Ở bài này ta sẽ sắp xếp các độ dài cạnh tam giác theo chiều tăng dần, sau đó thì sẽ tìm các cặp cạnh có độ dài bằng nhau và cuối cùng là đếm số tam giác với cặp cạnh đó.
-``` cpp=
+``` c++
 while (i < n) {
         int j = i;
         while (j < n && a[j] == a[i]) {
@@ -86,7 +86,7 @@ Nháp ra một chút thì ta thấy nếu dãy a được sắp xếp thì tổn
 $$
 \sum_{1 \leq i \leq n} [i \times a_i -  ( n - i ) \times a_j]
 $$
-``` cpp=
+``` c++
 void Solve(vector<int> a){
     sort(a.begin(), a.end());
     int sum = 0;
@@ -99,7 +99,7 @@ void Solve(vector<int> a){
 ### [H001] - Tom's Currency
 Ở bài này ta dùng `set` để loại bỏ các giá trị trùng lặp.
 ### Hashing: VQ44_FLOWERS
-``` cpp= 
+``` c++ 
 for( auto t : A ){
     Hash[t]++;
 }
@@ -123,7 +123,7 @@ for ( auto &T : Hash) {
 return quy;
 ```
 ### Hashing: KiemKe
-``` cpp= 
+``` c++ 
 for (auto s : ids){
     Hash[s]++;
 }
