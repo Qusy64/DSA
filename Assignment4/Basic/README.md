@@ -1,6 +1,5 @@
 # Assignment4
 Họ và tên : Lê Văn Quý
-
 MSSV : 24521492
 ### Tree: Hieght of tree
 Ở bài này thì ta cài đặt hàm `height(Node* root)`.
