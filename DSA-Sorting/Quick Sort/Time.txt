@@ -1,0 +1,10 @@
+Quick sort chạy : 0.063000 giây ở dãy 1
+Quick sort chạy : 0.078000 giây ở dãy 2
+Quick sort chạy : 0.194000 giây ở dãy 3
+Quick sort chạy : 0.201000 giây ở dãy 4
+Quick sort chạy : 0.172000 giây ở dãy 5
+Quick sort chạy : 0.215000 giây ở dãy 6
+Quick sort chạy : 0.212000 giây ở dãy 7
+Quick sort chạy : 0.278000 giây ở dãy 8
+Quick sort chạy : 0.196000 giây ở dãy 9
+Quick sort chạy : 0.183000 giây ở dãy 10

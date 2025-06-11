@@ -1,0 +1,10 @@
+Python sort() chạy: 0.00636 giây ở dãy 1
+Python sort() chạy: 0.00805 giây ở dãy 2
+Python sort() chạy: 0.34425 giây ở dãy 3
+Python sort() chạy: 0.36171 giây ở dãy 4
+Python sort() chạy: 0.40286 giây ở dãy 5
+Python sort() chạy: 0.35969 giây ở dãy 6
+Python sort() chạy: 0.36291 giây ở dãy 7
+Python sort() chạy: 0.36277 giây ở dãy 8
+Python sort() chạy: 0.45386 giây ở dãy 9
+Python sort() chạy: 0.87429 giây ở dãy 10

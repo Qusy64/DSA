@@ -1,0 +1,11 @@
+Heap sort chạy : 0.408000 giây ở dãy 1
+Heap sort chạy : 0.399000 giây ở dãy 2
+Heap sort chạy : 0.554000 giây ở dãy 3
+Heap sort chạy : 0.606000 giây ở dãy 4
+Heap sort chạy : 0.586000 giây ở dãy 5
+Heap sort chạy : 0.647000 giây ở dãy 6
+Heap sort chạy : 0.587000 giây ở dãy 7
+Heap sort chạy : 0.581000 giây ở dãy 8
+Heap sort chạy : 0.660000 giây ở dãy 9
+Heap sort chạy : 0.920000 giây ở dãy 10
+

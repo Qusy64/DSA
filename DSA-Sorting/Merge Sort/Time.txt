@@ -1,0 +1,10 @@
+Merge sort chạy : 0.135000 giây ở dãy 1
+Merge sort chạy : 0.141000 giây ở dãy 2
+Merge sort chạy : 0.250000 giây ở dãy 3
+Merge sort chạy : 0.233000 giây ở dãy 4
+Merge sort chạy : 0.250000 giây ở dãy 5
+Merge sort chạy : 0.257000 giây ở dãy 6
+Merge sort chạy : 0.270000 giây ở dãy 7
+Merge sort chạy : 0.250000 giây ở dãy 8
+Merge sort chạy : 0.234000 giây ở dãy 9
+Merge sort chạy : 0.266000 giây ở dãy 10

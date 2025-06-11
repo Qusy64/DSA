@@ -1,0 +1,10 @@
+C++ sort chạy : 0.099000 giây ở dãy 1
+C++ sort chạy : 0.094000 giây ở dãy 2
+C++ sort chạy : 0.240000 giây ở dãy 3
+C++ sort chạy : 0.261000 giây ở dãy 4
+C++ sort chạy : 0.234000 giây ở dãy 5
+C++ sort chạy : 0.242000 giây ở dãy 6
+C++ sort chạy : 0.246000 giây ở dãy 7
+C++ sort chạy : 0.245000 giây ở dãy 8
+C++ sort chạy : 0.236000 giây ở dãy 9
+C++ sort chạy : 0.263000 giây ở dãy 10
